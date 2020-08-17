@@ -1,6 +1,6 @@
 # XCNotification
 
-## Sumarry
+## Summary
 - this is a demo of notification tool based eventbus. [Key Code](https://github.com/jackleemeta/XCNotification/tree/master/app/src/main/java/com/xc/xcnotification/XCNotification)
 - it supports to bind object to avoid that infinite observers receive notification. Once the object is binded, posting notification must be with the same object, otherwise, the observer will not receive the notification.
 - it uses lamda and block, it's brief and simple.
